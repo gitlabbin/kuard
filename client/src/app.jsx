@@ -46,7 +46,7 @@ export default class App extends React.Component {
     return (
       <div className="top">
         <div className="title">
-          <div className="alert alert-danger" role="alert">
+          <div className="alert alert-success" role="alert">
             <svg className="icon icon-notification"><use xlinkHref="#icon-notification"></use></svg> { " " }
             <b>WARNING:</b> This server may expose sensitive and secret information. Be careful.
           </div>
