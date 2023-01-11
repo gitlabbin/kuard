@@ -28,7 +28,7 @@ metadata:
   name: kuard
 spec:
   ports:
-  - port: 80
+  - port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
@@ -54,4 +54,4 @@ spec:
               service:
                 name: kuard
                 port:
-                  number: 80
+                  number: 8080
