@@ -17,6 +17,7 @@ spec:
     spec:
       containers:
       - image: kuard:latest
+        imagePullPolicy: "IfNotPresent"
         name: kuard
 
 ---
