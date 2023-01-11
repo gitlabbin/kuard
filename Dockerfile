@@ -16,7 +16,7 @@ COPY . .
 ENV VERBOSE=0
 ENV PKG=github.com/kubernetes-up-and-running/kuard
 ENV ARCH=amd64
-ENV VERSION=test
+ENV VERSION=1.0.0
 
 # When running on Windows 10, you need to clean up the ^Ms in the script
 RUN dos2unix build/build.sh
